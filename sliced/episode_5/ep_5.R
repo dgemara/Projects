@@ -48,7 +48,7 @@ mset <- yardstick::metric_set(rmse)
 
 set.seed(2021)
 
-split <- initial_split(data, prop = 0.6)
+split <- initial_split(data, prop = 0.75)
 train <- training(split)
 test <- testing(split)
 
